@@ -10,11 +10,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Remover a tool bar
         supportActionBar!!.hide()
 
+        //instanciar o botão entrar
         val buttonCriarConta = findViewById<Button>(R.id.button_criar_conta)
 
+        // criar  um listener - ouvinte vai ficar esperando o objeto ser clicado
         buttonCriarConta.setOnClickListener {
+            // cirar uma intent "inteção"
             val abrirCadastro = Intent(this, cadastro_imc::class.java)
             startActivity(abrirCadastro)
         }

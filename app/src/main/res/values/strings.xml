@@ -12,5 +12,9 @@
     <string name="login_activity_esqueci_a_senha">Esqueci a senha</string>
     <string name="login_activity_nao_tem_uma_conta">Não tem uma conta?</string>
     <string name="login_activity_criar_uma_conta_agora">Criar uma conta agora</string>
+    <string name="trocar_foto">Trocar Foto</string>
+    <string name="dados_para_autentica_o">Dados para autenticação</string>
+    <string name="dados_pessoais">Dados pessoais</string>
+    <string name="sexo">Sexo</string>
 
 </resources>
