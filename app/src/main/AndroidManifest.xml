@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ImcApp">
-        <activity android:name=".cadastro_imc"></activity>
+        <activity android:name=".CadastroUsuario"></activity>
         <activity android:name=".DashboardActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

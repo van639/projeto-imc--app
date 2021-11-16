@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cadastro_imc"
+    tools:context=".CadastroUsuario"
     android:orientation="vertical"
     android:background="#0D070707">
 

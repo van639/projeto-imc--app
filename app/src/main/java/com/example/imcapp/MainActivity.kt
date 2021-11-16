@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         // criar  um listener - ouvinte vai ficar esperando o objeto ser clicado
         buttonCriarConta.setOnClickListener {
             // cirar uma intent "inteção"
-            val abrirCadastro = Intent(this, cadastro_imc::class.java)
+            val abrirCadastro = Intent(this, CadastroUsuario::class.java)
             startActivity(abrirCadastro)
         }
     }
