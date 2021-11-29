@@ -84,6 +84,7 @@
                 app:endIconMode="clear_text">
 
                 <EditText
+                    android:id="@+id/edit_login_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -101,6 +102,7 @@
                 app:passwordToggleEnabled="true">
 
                 <EditText
+                    android:id="@+id/edit_login_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="numberPassword"

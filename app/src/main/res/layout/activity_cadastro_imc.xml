@@ -97,6 +97,7 @@
                 >
 
                 <EditText
+                    android:id="@+id/edit_nova_senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="8dp"
@@ -125,6 +126,7 @@
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
+                    android:id="@+id/edit_novo_nome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="8dp" />
@@ -141,6 +143,7 @@
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
+                    android:id="@+id/edit_nova_profissao"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="8dp" />
@@ -157,6 +160,7 @@
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
+                    android:id="@+id/edit_nova_altura"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="8dp" />
@@ -169,12 +173,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:hint="Data de Nascimento"
-                android:inputType="date"
                 app:boxBackgroundColor="#0D070707">
 
                 <EditText
+                    android:id="@+id/edit_nova_datadenascimento"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:focusable="false"
                     android:drawablePadding="8dp" />
 
 
