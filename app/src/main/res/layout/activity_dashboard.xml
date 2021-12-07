@@ -182,6 +182,7 @@
         >
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card_pesar_agora"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             app:cardUseCompatPadding="true"

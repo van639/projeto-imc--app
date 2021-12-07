@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ImcApp">
-        <activity android:name=".PesagemActivity"></activity>
+        <activity android:name=".activity_pesagem2"></activity>
+        <activity android:name=".PesagemActivity" />
         <activity android:name=".CadastroUsuario" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".MainActivity">
